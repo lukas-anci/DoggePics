@@ -7,11 +7,9 @@ class CardList extends Component {
 
   render() {
     const onOpen = (id) => {
-      console.log('id', id);
       this.setState({ isOpen: !this.state.isOpen, photo: id });
     };
     const onClose = () => {
-      console.log('close this');
       this.setState({ isOpen: !this.state.isOpen });
     };
 

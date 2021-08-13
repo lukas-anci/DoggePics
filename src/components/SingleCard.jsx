@@ -21,7 +21,7 @@ export default function ImgMediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Grid container justify="center">
+    <Grid container justifyContent="center">
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
